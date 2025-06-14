@@ -284,7 +284,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -310,11 +310,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "Meta Introduction to Frontend Development",
+      title: "Meta Frontend Development",
       subtitle:
-        "Meta Introduction to Frontend Development course completion certificate on Coursera",
+        "Meta Frontend Development course completion certificate on Coursera",
       image: require("./assets/images/meta-intro-to-frontend-coursera-cert.png"),
-      imageAlt: "Meta Introduction to Frontend Development",
+      imageAlt: "Meta Frontend Development",
       footerLink: [
         {
           name: "Certification",
@@ -472,7 +472,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
