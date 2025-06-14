@@ -127,27 +127,27 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend (React, JavaScript, HTML/CSS)",
-      progressPercentage: "85%"
+      Stack: "Frontend (Vue, React, JavaScript, HTML/CSS)",
+      progressPercentage: "60%"
     },
     {
       Stack: "Backend (Node.js, FastAPI, Python)",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "AI/ML & GenAI (LLMs, LangChain, RAG)",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Cloud & DevOps (AWS, Docker, CI/CD)",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Databases (PostgreSQL, MongoDB, Pinecone)",
       progressPercentage: "75%"
     },
     {
-      Stack: "Programming Languages (Python, JavaScript, SQL)",
+      Stack: "Programming Languages (Python, Java, JavaScript, SQL)",
       progressPercentage: "85%"
     }
   ],
@@ -284,7 +284,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
