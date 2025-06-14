@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "GENAI ENGINEER AND FULL STACK DEVELOPER BUILDING INTELLIGENT APPS WITH MODERN AI & CLOUD STACKS",
+  subTitle:
+    "GENAI ENGINEER AND FULL STACK DEVELOPER BUILDING INTELLIGENT APPS WITH MODERN AI & CLOUD STACKS",
   skills: [
     emoji(
       "⚡ Design and develop end-to-end GenAI applications and intelligent chatbots powered by LLMs, Retrieval-Augmented Generation (RAG), and vector databases"
@@ -69,25 +70,24 @@ const skillsSection = {
   ],
 
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt" }, // Custom icon
-    { skillName: "LangChain", fontAwesomeClassname: "fas fa-link" }, // Custom icon
-    { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot" }, // Custom icon
-    { skillName: "Pinecone", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "SQL/NoSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" }, // Custom icon
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-tools" }, // Custom icon
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt"}, // Custom icon
+    {skillName: "LangChain", fontAwesomeClassname: "fas fa-link"}, // Custom icon
+    {skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot"}, // Custom icon
+    {skillName: "Pinecone", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "SQL/NoSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf"}, // Custom icon
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "CI/CD", fontAwesomeClassname: "fas fa-tools"} // Custom icon
   ],
   display: true
 };
-
 
 // Education Section
 
@@ -95,7 +95,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Khoury College of Computer Sciences, Northeastern University",
+      schoolName:
+        "Khoury College of Computer Sciences, Northeastern University",
       logo: require("./assets/images/northeasternLogo.png"),
       subHeader: "Master of Science in Artificial Intelligence (GPA 3.96/4)",
       duration: "January 2023 - May 2025",
@@ -108,7 +109,8 @@ const educationInfo = {
     {
       schoolName: "National Institute of Technology",
       logo: require("./assets/images/nitLogo.jpg"),
-      subHeader: "Bachelor of Technology in Electronics and Communication Engineering (Gold Medalist)",
+      subHeader:
+        "Bachelor of Technology in Electronics and Communication Engineering (Gold Medalist)",
       duration: "August 2016 - June 2020",
       desc: "Graduated with distinction; leadership roles and active participation in co-curricular activities.",
       descBullets: [
@@ -244,7 +246,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -297,7 +298,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "National Institute of Technology Institute Gold Medal",
-      subtitle: "National Institute of Technology Institute Gold Medal for Bachelor of Technology in Electronics and Communication Engineering",
+      subtitle:
+        "National Institute of Technology Institute Gold Medal for Bachelor of Technology in Electronics and Communication Engineering",
       image: require("./assets/images/nit-gold-medal-cert.png"),
       imageAlt: "University of Michigan Python Programming",
       footerLink: [
@@ -322,8 +324,7 @@ const achievementSection = {
     },
     {
       title: "Google Firebase Project",
-      subtitle:
-        "Google Firebase Project completion certificate on Coursera",
+      subtitle: "Google Firebase Project completion certificate on Coursera",
       image: require("./assets/images/google-firebase-project-coursera-cert.png"),
       imageAlt: "Google Firebase Project",
       footerLink: [
@@ -335,7 +336,8 @@ const achievementSection = {
     },
     {
       title: "AWS Cloud Technical Essentials",
-      subtitle: "AWS Cloud Technical Essentials course completion certificate on Coursera",
+      subtitle:
+        "AWS Cloud Technical Essentials course completion certificate on Coursera",
       image: require("./assets/images/aws-cloud-technical-essentials-coursera-cert.png"),
       imageAlt: "AWS Cloud Technical Essentials",
       footerLink: [
@@ -371,7 +373,8 @@ const achievementSection = {
     },
     {
       title: "Google Interacting with OS using Python",
-      subtitle: "Google Interacting with OS using Python course completion certificate on Coursera",
+      subtitle:
+        "Google Interacting with OS using Python course completion certificate on Coursera",
       image: require("./assets/images/google-python-os-coursera-cert.png"),
       imageAlt: "Google Interacting with OS using Python",
       footerLink: [
@@ -383,7 +386,8 @@ const achievementSection = {
     },
     {
       title: "University of Michigan Python Programming",
-      subtitle: "University of Michigan Python Programming course completion certificate on Coursera",
+      subtitle:
+        "University of Michigan Python Programming course completion certificate on Coursera",
       image: require("./assets/images/umich-python-coursera-cert.png"),
       imageAlt: "University of Michigan Python Programming",
       footerLink: [
