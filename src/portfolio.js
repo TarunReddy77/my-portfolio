@@ -23,7 +23,7 @@ const greeting = {
   username: "Tarun Reddy",
   title: "Hey all, I'm Tarun",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A driven Full Stack AI Engineer and Software Developer specializing in building intelligent web applications and GenAI solutions using Python, JavaScript, React, Node.js, and the latest AI frameworks. Experienced in developing production-grade LLM-powered chatbots, cloud-native applications, and end-to-end data science projects."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -49,76 +49,45 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "GENAI ENGINEER AND FULL STACK DEVELOPER BUILDING INTELLIGENT APPS WITH MODERN AI & CLOUD STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and develop end-to-end GenAI applications and intelligent chatbots powered by LLMs, Retrieval-Augmented Generation (RAG), and vector databases"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build scalable full stack web apps with React, Node.js, FastAPI, and Python, integrating cutting-edge AI models and APIs"
+    ),
+    emoji(
+      "⚡ Architect, deploy, and manage cloud-native applications on AWS, leveraging tools like Docker and CI/CD for robust, production-ready systems"
+    ),
+    emoji(
+      "⚡ Collaborate across global teams to deliver seamless user experiences, integrating third-party APIs and modern frontend technologies"
+    ),
+    emoji(
+      "⚡ Experienced with LangChain, Pinecone, OpenAI, Crew AI, and building multimodal, agentic AI workflows"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-bolt" }, // Custom icon
+    { skillName: "LangChain", fontAwesomeClassname: "fas fa-link" }, // Custom icon
+    { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot" }, // Custom icon
+    { skillName: "Pinecone", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "SQL/NoSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" }, // Custom icon
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-tools" }, // Custom icon
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Education Section
 
@@ -126,23 +95,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Northeastern University",
+      schoolName: "Khoury College of Computer Sciences, Northeastern University",
       logo: require("./assets/images/northeasternLogo.png"),
-      subHeader: "Master of Science in Artificial Intelligence (GPA - 3.96/4.0)",
+      subHeader: "Master of Science in Artificial Intelligence (GPA 3.96/4)",
       duration: "January 2023 - May 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Graduate coursework and research focused on modern AI methods and applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Courses: Large Language Models, AI for Human Computer Interaction, Deep Learning, Machine Learning, Reinforcement Learning, Natural Language Processing, Algorithms, Programming Design Paradigm",
+        "Roles: Head Teaching Assistant for Graduate Level Natural Language Processing"
       ]
     },
     {
-      schoolName: "National Institute of Technology Arunachal Pradesh",
+      schoolName: "National Institute of Technology",
       logo: require("./assets/images/nitLogo.jpg"),
       subHeader: "Bachelor of Technology in Electronics and Communication Engineering (Gold Medalist)",
       duration: "August 2016 - June 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Graduated with distinction; leadership roles and active participation in co-curricular activities.",
+      descBullets: [
+        "Courses: Soft Computing, Robotics, Computer Architecture, Database Management, VLSI Design",
+        "Roles: Class Representative, Training and Placement Coordinator, Head of Electronics Club"
+      ]
     }
   ]
 };
@@ -153,16 +125,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (React, JavaScript, HTML/CSS)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Backend (Node.js, FastAPI, Python)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "AI/ML & GenAI (LLMs, LangChain, RAG)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Cloud & DevOps (AWS, Docker, CI/CD)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Databases (PostgreSQL, MongoDB, Pinecone)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Programming Languages (Python, JavaScript, SQL)",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,32 +158,92 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full-Stack AI Engineer Intern",
+      company: "HerHeard",
+      companylogo: require("./assets/images/herheardLogo.png"), // <-- Add your logo image
+      date: "Sep 2024 – Dec 2024",
+      desc: "MIT-based startup; built LLM-powered GenAI chatbot and core app features.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed conversational chatbot using LLMs (RAG, knowledge graphs, agentic workflows), evaluated performance with advanced metrics, and integrated AI into production React apps.",
+        "Contributed to design and implementation of a personalized daily journal and dynamic news feed dashboard, leveraging cloud APIs and scalable backend services.",
+        "Enhanced user interaction through prompt engineering and LLM evaluation, deploying new features via CI/CD pipelines for a secure and global user base."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Head Teaching Assistant – Graduate Natural Language Processing",
+      company: "Northeastern University",
+      companylogo: require("./assets/images/northeasternUniversityNonTransparentLogo.jpg"), // <-- Add your logo image
+      date: "Sep 2023 – May 2025",
+      desc: "MS in AI; led course operations and mentorship for graduate NLP cohorts.",
+      descBullets: [
+        "Managed a team of TAs and coordinated instruction for 200+ graduate students across 4 semesters of CS 6120: NLP, enhancing course delivery and engagement.",
+        "Designed and graded assignments on transformers, embeddings, and sequence models using Python, PyTorch, and Hugging Face; led interactive code walks and implemented automated grading workflows.",
+        "Led recitations and office hours, offering technical guidance, project support, and mentorship, while collaborating with faculty on curriculum updates."
+      ]
+    },
+    {
+      role: "Specialist Programmer",
+      company: "Infosys",
+      companylogo: require("./assets/images/infosysLogo.jpg"),
+      date: "Sep 2021 – Jan 2023",
+      desc: "Full-stack development for Apple client in DevSecOps environment.",
+      descBullets: [
+        "Built REST APIs and microservices using Spring Boot, Flask, and Jenkins on AWS, automating deployments and enhancing system reliability for Apple DevSecOps Portal.",
+        "Developed PostgreSQL-backed dashboards with Angular for deployment tracking; performed predictive reliability monitoring using statistical analysis.",
+        "Collaborated with Apple teams in Agile sprints; integrated Jenkins, AWS Secrets Manager, and Microsoft 365 tools across cross-platform environments."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Srisys Inc.",
+      companylogo: require("./assets/images/srisysLogo.jpeg"), // <-- Add your logo image
+      date: "Mar 2021 – Aug 2021",
+      desc: "ERP extensions and cloud app development.",
+      descBullets: [
+        "Developed ERP extensions and cloud-based apps using Java, Spring Boot, Angular, and PostgreSQL; built CI/CD pipelines with Jenkins and Puppet.",
+        "Integrated AWS services for scalable backend solutions; delivered custom features for clients in manufacturing and healthcare sectors.",
+        "Collaborated with cross-functional teams to ensure timely delivery of robust and maintainable solutions meeting client requirements."
+      ]
+    },
+    {
+      role: "Research Intern",
+      company: "IIT Hyderabad (VIGIL Lab)",
+      companylogo: require("./assets/images/iithLogo.png"), // <-- Add your logo image
+      date: "Aug 2021 – Feb 2022",
+      desc: "Computer Vision with Prof. Dr. Chalavadi Krishna Mohan.",
+      descBullets: [
+        "Conducted research on object detection, dilation, and attention networks using PyTorch, TensorFlow, Keras, and OpenCV; contributed to computer vision advancements.",
+        "Built and evaluated ML pipelines for video data, enhancing model performance with advanced preprocessing and deep learning architectures.",
+        "Validated results through rigorous testing and applied state-of-the-art techniques on academic datasets in collaboration with the VIGIL Lab."
+      ]
+    },
+    {
+      role: "Research Associate",
+      company: "IIT Indore",
+      companylogo: require("./assets/images/iitiLogo.png"), // <-- Add your logo image
+      date: "Jul 2020 – Nov 2020",
+      desc: "DSP hardware security research under Prof. Anirban Sengupta.",
+      descBullets: [
+        "Developed method for DSP hardware IP piracy prevention by generating palmprint biometrics-based digital signatures and embedding them in RTL design.",
+        "Altered register allocation for enhanced security, resulting in a peer-reviewed IEEE Transactions on Consumer Electronics publication.",
+        "Collaborated with interdisciplinary teams to validate novel hardware security solutions and document reproducible design methodologies."
+      ]
+    },
+    {
+      role: "Research Intern",
+      company: "IIT Indore",
+      companylogo: require("./assets/images/iitiLogo.png"), // <-- Add your logo image
+      date: "May 2019 – Jul 2019",
+      desc: "Fault tolerance & optimization in DSP cores (Prof. Anirban Sengupta).",
+      descBullets: [
+        "Worked on transient fault tolerance in DSP cores using compiler-driven transformations and simulated annealing for floorplanning optimization.",
+        "Applied AI search methods such as hill climbing and particle swarm optimization to improve delay, area, and power metrics in VLSI systems.",
+        "Documented improvements in DSP core reliability and efficiency, contributing to ongoing research in digital hardware design optimization."
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -239,7 +283,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -252,50 +296,100 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "National Institute of Technology Institute Gold Medal",
+      subtitle: "National Institute of Technology Institute Gold Medal for Bachelor of Technology in Electronics and Communication Engineering",
+      image: require("./assets/images/nit-gold-medal-cert.png"),
+      imageAlt: "University of Michigan Python Programming",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1MPCojvsjOr-sFqEqULGtcFuXrECpxARy/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Meta Introduction to Frontend Development",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Meta Introduction to Frontend Development course completion certificate on Coursera",
+      image: require("./assets/images/meta-intro-to-frontend-coursera-cert.png"),
+      imageAlt: "Meta Introduction to Frontend Development",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://coursera.org/verify/7L6Q2MHR17PP"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Google Firebase Project",
+      subtitle:
+        "Google Firebase Project completion certificate on Coursera",
+      image: require("./assets/images/google-firebase-project-coursera-cert.png"),
+      imageAlt: "Google Firebase Project",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://coursera.org/verify/8DOUU07ROE02"
+        }
+      ]
+    },
+    {
+      title: "AWS Cloud Technical Essentials",
+      subtitle: "AWS Cloud Technical Essentials course completion certificate on Coursera",
+      image: require("./assets/images/aws-cloud-technical-essentials-coursera-cert.png"),
+      imageAlt: "AWS Cloud Technical Essentials",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/verify/D2Q5DYKK3NB6"
+        }
+      ]
+    },
+    {
+      title: "Kaggle Machine Learning",
+      subtitle: "Kaggle Machine Learning course completion certificate",
+      image: require("./assets/images/kaggle-ml-cert.png"),
+      imageAlt: "Kaggle Machine Learning",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1qh3W76pTNDZPlU8J3YRz_k6d6ohDNON4/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Kaggle Data Visualization",
+      subtitle: "Kaggle Data Visualization course completion certificate",
+      image: require("./assets/images/kaggle-data-viz-cert.png"),
+      imageAlt: "Kaggle Data Visualization",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1e1CWVLMQB8uREiWbHwWqGcASvoKhOVdx/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Google Interacting with OS using Python",
+      subtitle: "Google Interacting with OS using Python course completion certificate on Coursera",
+      image: require("./assets/images/google-python-os-coursera-cert.png"),
+      imageAlt: "Google Interacting with OS using Python",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/verify/VX3VD8HUVJ5C"
+        }
+      ]
+    },
+    {
+      title: "University of Michigan Python Programming",
+      subtitle: "University of Michigan Python Programming course completion certificate on Coursera",
+      image: require("./assets/images/umich-python-coursera-cert.png"),
+      imageAlt: "University of Michigan Python Programming",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/verify/7RHFJUUJLC4L"
         }
       ]
     }
@@ -312,16 +406,10 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@tarutornado/pytorch-functions-f8ad67c2779b",
+      title: "5 cool PyTorch functions that are good to know!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "In the mood to explore some interesting builtin functions in PyTorch? Here, they are..."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +431,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +444,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
